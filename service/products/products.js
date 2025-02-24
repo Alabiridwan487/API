@@ -7,9 +7,9 @@ const createProducts = async (productsObj) => {
 }
 
 
-const fetchAllProducts = async (params) => {
-    const products = await products.find();
-    return newProducts;
+const fetchAllProducts = async () => {
+    const allProducts = await products.find();
+    return allProducts;
 
 }
 
