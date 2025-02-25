@@ -15,9 +15,8 @@ const fetchAllProducts = async () => {
 
 
 const fetchProductById = async (productID) => {
-    
-}
 
+}
 
 
 
