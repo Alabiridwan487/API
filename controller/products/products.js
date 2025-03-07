@@ -1,4 +1,4 @@
-const { createProducts, fetchAllProducts } = require("../../service/products/products");
+const { createProducts, fetchAllProducts } = require("../../service/product/product.service");
 
 const createProductsController = async (req, res) => {
    try {
